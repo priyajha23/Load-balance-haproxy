@@ -5,7 +5,7 @@
 This project sets up a load balancer using **HAProxy** to distribute traffic between two **Golang services** running in separate **Docker** containers. The services are managed using Docker, and round-robin load balancing is implemented via HAProxy.
 
 
-## Logs
+## Logs (Click on image to see in better resolution)
 ![Traffic log](https://github.com/priyajha23/Load-balance-haproxy/blob/main/logs/TrafficLog.png)
 
 
