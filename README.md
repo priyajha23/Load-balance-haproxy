@@ -7,10 +7,21 @@ This project sets up a load balancer using **HAProxy** to distribute traffic bet
 ## How to Run  
 1. **Pull the images from Docker Hub**:  
    ```sh
-   docker pull <your-dockerhub-username>/service1  
-   docker pull <your-dockerhub-username>/service2  
-   docker pull <your-dockerhub-username>/haproxy  
-   ```
+# Build and Run Service 1
+cd service1
+docker build -t service1 .
+docker run -d --name service1 -p 5001:5000 service1
+
+# Build and Run Service 2
+cd ../service2
+docker build -t service2 .
+docker run -d --name service2 -p 5002:5000 service2
+
+# Build and Run HAProxy
+cd ../haproxy
+docker build -t haproxy .
+docker run -d --name haproxy -p 80:80 --link service1 --link service2 haproxy
+```
 2. **Run the containers**:  
    ```sh
    docker run -d --name service1 -p 5001:5000 <your-dockerhub-username>/service1  
