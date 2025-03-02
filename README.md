@@ -1,4 +1,4 @@
-# Load Balancer with HAProxy and Golang Services
+# Load Balancer with HAProxy, Docker and Golang Services
 
 ## Overview
 
