@@ -8,9 +8,9 @@ This project sets up a load balancer using **HAProxy** to distribute traffic bet
 
 ## Docker Images (Docker Hub Links)
 
-- **Service 1**: [service1](https://hub.docker.com/repository/docker/hahawhytho/21je0702-service1)
-- **Service 2**: [service2](https://hub.docker.com/repository/docker/hahawhytho/21je0702-service2)
-- **HAProxy**: [haproxy](https://hub.docker.com/repository/docker/hahawhytho/21je0702-haproxy)
+- **Service 1**: (https://hub.docker.com/repository/docker/hahawhytho/21je0702-service1)
+- **Service 2**: (https://hub.docker.com/repository/docker/hahawhytho/21je0702-service2)
+- **HAProxy**: (https://hub.docker.com/repository/docker/hahawhytho/21je0702-haproxy)
 
 
 
