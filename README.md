@@ -22,15 +22,15 @@ This project sets up a load balancer using **HAProxy** to distribute traffic bet
    curl http://localhost  
    ```
 4. **Load Balancing Verification**:  
-   ```sh
-docker logs haproxy
-```
+    ```sh
+     docker logs haproxy
+     ```
 5. **Stopping and Cleaning Up**:  
-  ```sh
-docker stop haproxy service1 service2
-docker rm haproxy service1 service2
-docker rmi haproxy service1 service2  # Remove images if needed
-```
+    ```sh
+    docker stop haproxy service1 service2
+    docker rm haproxy service1 service2
+    docker rmi haproxy service1 service2  # Remove images if needed
+    ```
 
 
 
