@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project sets up a load balancer using **HAProxy** to distribute traffic between two **Golang services** running in separate Docker containers. The services are managed using Docker, and round-robin load balancing is implemented via HAProxy.
+This project sets up a load balancer using **HAProxy** to distribute traffic between two **Golang services** running in separate **Docker** containers. The services are managed using Docker, and round-robin load balancing is implemented via HAProxy.
 
 
 
